@@ -189,7 +189,7 @@ public class CrimeFragment extends Fragment {
         mPhotoButton = (ImageButton) v.findViewById(R.id.crime_camera);
         mPhotoView = (ImageView) v.findViewById(R.id.crime_photo);
         Log.d("info", "observer");
-        //fghdfhdfghdfgh
+        //new branch
         ViewTreeObserver observer = mPhotoView.getViewTreeObserver();
         observer.addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
             @Override
